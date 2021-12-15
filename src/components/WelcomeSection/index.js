@@ -7,7 +7,7 @@ import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
 import { styWrapper, styHero, styBackground, styButtonWrapper } from './styles';
 
-const DELAY_TIME = 1500;
+const DELAY_TIME = 0;
 
 function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, codeLink, onClickDetail }) {
   const [loading, setLoading] = useState(false);
@@ -49,7 +49,8 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
     return (
       <Fragment>
-        <h3 className="to-dearest">To our Dearest</h3>
+        <h3 className="to-dearest">Kepada Yth</h3>
+        <h3 className="to-dearest">Bapak/Ibu/Saudara/i</h3>
         <h2 className="to-dearest-name">{guestName}</h2>
       </Fragment>
     );
@@ -70,7 +71,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-dinda-indra" />
               <h4 className="sub-title">The Wedding of</h4>
-              <h1 className="title">Dinda &amp; Indra</h1>
+              <h1 className="title">Pratiwi &amp; Ade</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>

@@ -1,12 +1,11 @@
 /**
  * Link
  */
-export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/event?action=TEMPLATE&dates=20201003T040000Z%2F20201003T060000Z&text=Dinda+%26+Indra+Wedding&details=Dinda+%26+Indra+Wedding`;
-export const GOOGLE_MAPS_LINK = `https://g.page/HARRISHotelSentralandSemarang?share`;
+export const GOOGLE_MAPS_LINK = `https://www.google.com/maps/place/8%C2%B034'07.7%22S+115%C2%B013'20.7%22E/@-8.5687955,115.2202266,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x553d380a4c3fcda!8m2!3d-8.5687955!4d115.2224153?hl=en`;
 
 /**
  * Wedding time
  */
-export const EPOCH_START_EVENT = 1613952139;
-export const EPOCH_END_EVENT = 1613952139;
-export const UTC_WEDDING_TIME = '2020-10-03:04:00:00Z';
+export const EPOCH_START_EVENT = 1640235600;
+export const EPOCH_END_EVENT = 1640235600;
+export const UTC_WEDDING_TIME = '2021-12-23:05:00:00Z';

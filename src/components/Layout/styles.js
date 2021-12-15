@@ -9,5 +9,6 @@ export const styWrapper = css`
     align-items: center;
     min-height: calc(100vh - 18px);
     padding: 0 20px;
+    background-color: black;
   }
 `;

@@ -38,12 +38,11 @@ function Home({ location }) {
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
-        {isInvitation && <CovidSection />}
-        {isInvitation && <LocationSection />}
-        <StorySection />
         <PhotoSection />
-        <WishesSection />
-        <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
+        <LocationSection />
+        <CovidSection />
+        {/* <WishesSection /> */}
+        {/* <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} /> */}
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );

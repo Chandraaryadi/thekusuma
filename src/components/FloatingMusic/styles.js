@@ -30,8 +30,6 @@ export const styMusicFloating = css`
       left: 20px;
     }
   }
-
-
 `;
 
 export const styWrapperModal = css`

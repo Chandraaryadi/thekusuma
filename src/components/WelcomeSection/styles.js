@@ -230,16 +230,16 @@ export const styWrapperCount = css`
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: #fff;
   margin: 8px;
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
-  color: #fff;
+  color: #d3a13b;
 
   h3 {
     font-size: 30px;
-    color: #fff;
+    color: #d3a13b;
     margin: 20px 0 0 0;
   }
 
